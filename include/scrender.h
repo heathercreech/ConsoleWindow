@@ -21,7 +21,7 @@ public:
 	SDL_Renderer* app_renderer;
 };
 
-//wrapper for SDL_Texture
+
 class SquareRenderer : public ObjectRenderer{
 public:
 	SquareRenderer(SDL_Renderer*, SDL_Rect*, SDL_Color*);
